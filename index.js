@@ -34,3 +34,5 @@ function writeCards(names, event) {
 }
 
 writeCards(["Charlie", "Samip", "Ali"], "birthday");
+
+/* CONTINUE FROM HERE, NEED TO RUN NPM TEST AND FIX ERRORS*/
