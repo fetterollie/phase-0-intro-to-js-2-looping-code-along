@@ -27,12 +27,20 @@ function writeCards(names, event) {
     for(let i = 0; i < names.length; i++) {
         messages.push(`Thank you, ${names[i]}, for the wonderful ${event} gift!`)
     }
-//     debugger;
+// debugger;
 // after the loop finishes and all of the messages 
 // have been added to the new array, return the new array
-    return console.log(messages);
+    return messages;
 }
 
-writeCards(["Charlie", "Samip", "Ali"], "birthday");
+// writeCards(["Charlie", "Samip", "Ali"], "birthday");
 
 /* CONTINUE FROM HERE, NEED TO RUN NPM TEST AND FIX ERRORS*/
+
+function countDown(num) {
+//    let numHolder = num
+    for(let i = num; i > -1; i--) {
+        console.log(i)
+    }
+}
+countDown(10)
